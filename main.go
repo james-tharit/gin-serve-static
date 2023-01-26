@@ -16,5 +16,5 @@ func main() {
 		c.File("./build/index.html")
 	})
 
-	router.Run(":8080")
+	router.Run("localhost:8080")
 }
